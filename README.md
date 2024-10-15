@@ -8,7 +8,12 @@ Install the packages using command "npm install"
 
 .env variables required:
 {
-
+MONDODB_URL='use MongoDB connection string here';
+AUTH0_SECRET='use [openssl rand -hex 32] to generate a 32 bytes value'
+AUTH0_BASE_URL='http://localhost:3000'
+AUTH0_ISSUER_BASE_URL='https://{yourDomain}'
+AUTH0_CLIENT_ID='{yourClientId}'
+AUTH0_CLIENT_SECRET='{yourClientSecret}'
 
 }
 
