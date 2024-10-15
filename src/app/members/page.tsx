@@ -13,6 +13,7 @@ export default async function MembersPage() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
     <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-5">Content Page</h1>
+      <h3 className="text-xl sm:text-1.5xl lg:text-2xl font-semibold mb-3">Click on the image to know more.</h3>
      <div className="flex flex-wrap gap-5">
        {members.map((member) => <MemberItem member={member} key={`${new ObjectId(member._id)}`} />)}
      </div>
